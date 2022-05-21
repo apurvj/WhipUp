@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg,#1C78A8,#ECA7A7);
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#heading{
+    font-size:xxx-large;
+    text-align: center;
+    color:#F1E08E;
+}
+.giftarea{
+   width: 99vw;
+   height: 40vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+}
+#textBox{
+    margin-right: 20px;
+    padding: 20px 80px;
+    background-color:#F395BA;
+    outline: none;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
+
+#generatebutton1{
+    padding: 20px 30px;
+    outline: none;
+    background-color:#C3FB67;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 1;
+    font-size:large;
+}
+
+.title{
+    color:grey
+}
+.giftarea1{
+    margin-top: 7%;
+}
+
+#grid1{
+    width: 90vw;
+    height: 39vh;
+    border-radius:10px;
+    background-color: #fff;
+    opacity: 0.3;
+    grid-template-rows: repeat(85vw,minmax(13));
+}
+
+#grid1 img{
+    margin: 10px 10px;
+    width:80px;
+    height:80px;
+}
